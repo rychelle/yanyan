@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ryan img{
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.ryan{
+    text-align: center;
+    color: white;
+    padding: 100px 0 250px 0;
+    margin: 0 20px;
+}
+
+.p{
+    color:#C0392B;
+    font-weight: bold;
+}
+
+.w{
+    color: #2980B9;
+    font-weight: bold;
+}
+
+.d{
+    color: #F1C40F;
+    font-weight: bold;
+}
+
+.ryan h4{
+    text-shadow: 2px 2px 4px #17202A;
+    letter-spacing: 3px;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+.ryan p{
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #17202A;
+}
+
+.section-1{
+    margin: 100px 0;
+}
+
+.section-2{
+    margin: 100px 0;
+}
+
+.my-col{
+    text-align: center;
+}
+
+.my-col img{
+    height: 200px;
+}
+
+.my-col h4{
+    margin-top: 50px;
+    color: coral;
+}
+
+section{
+    background-color: #F2F3F4;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-3 img{
+    margin: 30px 0;
+}
+
+.section-3 h3{
+    color: coral;
+    padding: 20px 0;
+}
+
+.contact-section{
+    text-align: center;
+    padding: 50px;
+    margin: 50px 0;
+}
+
+.contact-section h3{
+    color: #007BFF;
+}
+
+.hello{
+    color: coral;
+}
+
+.rights{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rights a{
+    color: coral;
+    font-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social i{
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-nav{
+    margin: 0 0 0 65%;
+}
+
+.navbar-nav a.nav-item.nav-link.active{
+    color: white;
+}
+
+.navbar-nav a.nav-item.nav-link.active:hover{
+    color: coral;
+    font-weight: bold;
+}
+
+.navbar-nav a.nav-item.nav-link{
+    color: white;
+}
+
+.navbar-nav a.nav-item.nav-link:hover{
+    color: coral;
+    font-weight: bold;
+
+}
+
+button .navbar-toggler{  
+    color: white;
+}
+
+.navbar a.navbar-brand{
+    color: white;
+    font-weight: bold;
+    padding-left: 70px;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
+
+.navbar a.navbar-brand:hover{
+    color: #2980B9;
+}
+
+
+@media only screen and (max-width:320px){
+    .ryan img{
+        margin-bottom: 0;
+    }
+    .ryan{
+        padding: 50px 0 250px 0;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .navbar-nav{
+        margin: 0;
+    }
+
+    .navbar a.navbar-brand{
+        padding-left: 0;
+        margin: 0 auto;
+    }
+}
+
+/* about me page */
+.wrap-wrapper{
+    background-image: url(../img/bg-about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+}
+
+.con-about{
+    text-align: center;
+    padding: 150px 0 190px 0;
+}
+
+.con-about button{
+    margin-top: 30px;
+}
+
+.myname{
+    color: coral;
+    text-shadow: 3px 3px 4px #1C2833;
+}
+
+.con-about h1{
+    color: white;
+    text-shadow: 3px 3px 4px #1C2833;
+}
+
+.con-about p{
+    color: white;
+    font-weight: 500;
+    text-shadow: #1C2833;
+}
+
+.con-about a{
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.about-section{
+    text-align: center;
+    margin: 150px 0;
+}
+
+.about-sakin h4{
+    color: coral;
+}
+
+.about-sakin p{
+    text-align: left;
+    padding-top: 30px;
+}
+
+.ryanher{
+    border: solid 2px coral;
+    border-radius: 10px;
+}
+
+.info{
+    color: coral;
+}
+
+table{
+    margin-top: 10px;
+    text-align: left;
+}
+
+@media screen and (max-width: 500px){
+    .ryanher{
+        margin-top: 50px;
+    }
+    .info{
+        margin-top: 50px;
+    }
+}
